@@ -1,0 +1,79 @@
+.header{
+   width: 1200px;
+   height: 100px;
+   margin: 0 auto;
+   background:aqua;
+
+}
+.logo{
+    float: left;
+    padding: 20px;
+
+}
+.logo img{
+    width: 70%;
+    height: 70%;
+    
+}
+.menu{
+    float: right;
+    padding-top: 15px;
+
+
+}
+.menu ul{
+    list-style: none;
+
+}
+.menu ul li{
+    display: inline-block;
+
+}
+.menu ul li a{
+    text-decoration: none;
+    font-size: 25px;
+
+padding-right: 20px;
+}
+/* Header part End */
+/*Slider part start */
+
+.slider{
+    width: 1200px;
+    height: 600px;
+
+    margin: 0 auto;
+    background:  linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url(./image/mb.png);
+    background-repeat: no-repeat;
+    background-size: fit;
+    background-position: center;
+
+}
+.slider h1{
+    position: absolute;
+    top: 50%;
+    left: 42%;
+    color: antiquewhite;
+    text-align: center;
+}
+.slider p{
+    position: absolute;
+    top: 55%;
+    left: 42%;
+    color: white;
+
+}
+.slider a{
+    position: absolute;
+    top: 63%;
+    left:42%;
+    color: aquamarine;
+    text-decoration: none;
+    border: 1px solid whitesmoke;
+    padding: 10px 25px;
+    font-size: 25px; 
+    background:blue;
+    border-radius: 20px;
+}
+
+/* Slider part End */
