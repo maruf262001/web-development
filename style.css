@@ -106,6 +106,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(280px,auto));
     gap: 5px;
+    
 }
 span{
     color: tomato;
@@ -121,6 +122,62 @@ span{
     border-radius: 50%;
     color: forestgreen;
     border: 2px solid tomato;
+
+}
+
+.card a{
+    border: 2px solid wheat;
+    font-size: 25px;
+    border-radius: 20px;
+    background: white;
+    padding: 10px 10px;
+    
+}
+.card a:hover{
+  
+    color: white;
+    background: blue;
+}
+.animate{
+    animation: 7s mov linear infinite;
+    position: relative;
+
+}
+@keyframes mov{
+    /* from{background-color: rgb(23, 78, 100);}
+
+    to{background-color: rgb(7, 231, 220);} */
+    /* 0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;} */
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}
+footer{
+    width: 1200px;
+    margin: 0 auto;
+
+}
+.footer-main{
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(380px,auto));
+    gap: 5px;
+}
+.block{
+    text-decoration: none;
+    text-align: center;
+    background-color: aqua;
+    padding: 10px;
+    display: grid;
+    grid-template-rows: repeat(auto-fit,minmax(20px,auto));
+}
+.block img{
+    height: 25px;
+    width: 25px;
 
 }
 
